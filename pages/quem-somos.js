@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Hero from './components/Hero'
 import Layout from './components/layout'
 
-export default function Home() {
+export default function QuemSomos() {
   return (
     <div>
       <Head>
@@ -10,7 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favico.ico" />
       </Head>
       <Layout>
-        <Hero></Hero>
+      <div class="container"><h2>Quem Somos</h2></div>
+        
       </Layout>
     </div>
   )

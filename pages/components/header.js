@@ -12,7 +12,7 @@ const socialsItens = [
 
 const Logo = () => (
     <div className="navbar-brand">
-        <Link href="/"><a className="navbar-item"><img src="logo.png" /></a></Link>
+        <Link href="/"><a className="navbar-item"><img src="logo-w.png" width="200" /></a></Link>
 
     <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
@@ -27,7 +27,7 @@ const Menu = () => (
         <div className="navbar-start">  
         { menuItens.map(function(item) {
             return  <Link key={item.key} href={item.link}>
-                        <a className="navbar-item has-text-primary">{item.label}</a>
+                        <a className="navbar-item has-text-light has-text-weight-medium is-uppercase">{item.label}</a>
                     </Link>
         }) }
         </div>
@@ -39,9 +39,12 @@ const Menu = () => (
 
 export default function Header() {
     return (
-        <nav className="navbar container" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-success" role="navigation" aria-label="main navigation">
+            <div class="container">
             <Logo />
             <Menu />
+            </div>
+            
         </nav>
     )
 }
