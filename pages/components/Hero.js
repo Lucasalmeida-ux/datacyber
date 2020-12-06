@@ -16,8 +16,8 @@ export default function Hero() {
                             Descomplique sua rotina diária !
                         </h3>
                             <div class="buttons">
-                                <Link href="/sistema/Varejista.js"><button class="button is-rounded">Sistema para varejistas</button></Link>
-                                <Link href="/sistema/Atacadista.js"><button class="button is-link is-rounded">Sistema para atacadistas</button></Link>
+                                <Link href="/sistema/varejista"><button class="button is-rounded">Sistema para varejistas</button></Link>
+                                <Link href="/sistema/atacadista"><button class="button is-link is-rounded">Sistema para atacadistas</button></Link>
                             </div>
                         </div>
                         <div className="column">

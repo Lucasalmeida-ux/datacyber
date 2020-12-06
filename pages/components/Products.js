@@ -1,6 +1,7 @@
 import { faBoxes, faShoppingBasket } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Link from "next/link"
+import Head from 'next/head'
 
 export default function Products() {
     return (
@@ -12,7 +13,7 @@ export default function Products() {
             </h2>
                 <div className="columns">
                     <div className="column">
-                        <Link href="/sistema/Atacadista"><a className="linkBok">
+                        <Link href="/sistema/atacadista"><a className="linkBok">
                             <FontAwesomeIcon icon={faBoxes} className="my-icon" />
                             <h2 className="title is-5">Sistema para Gestão de Distribuidoras</h2>
                             <p>Para quem deseja ter controle de vendas, Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
@@ -20,7 +21,7 @@ export default function Products() {
                         </a></Link>
                     </div>
                     <div className="column">
-                        <Link href="/sistema/Varejista"><a className="linkBok">
+                        <Link href="/sistema/varejista"><a className="linkBok">
                             <FontAwesomeIcon icon={faShoppingBasket} className="my-icon" />
                             <h2 className="title is-5">Comércios varegistas</h2>
                             <p>Para quem deseja ter controle de vendas,Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
