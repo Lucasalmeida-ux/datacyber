@@ -1,11 +1,11 @@
 export default function Hero() {
     return (
-    <section className="hero is-bold">
+    <section className="hero is-bold has-background-primary-light">
         <div className="hero-body">
             <div className="container">
                 <div className="columns">
                     <div className="column is-two-thirds">
-                        <h1 className="title">
+                        <h1 className="title mt-large">
                             Tecnologia em sistemas
                         </h1>
                         <h3 className="subtitle desktop-mt-5">

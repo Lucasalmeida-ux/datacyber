@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import 'bulma/bulma';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
 
 html,
 body {
@@ -21,14 +22,8 @@ a {
   max-height: none;
   width: 200px;
 }
-.hero {
-  background-color: #d9ffd9;
-}
 .hero .title {
   margin-top: 100px;
-}
-.is-dark {
-  background-color: rgb(26, 26, 26);
 }
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
   background-color: transparent;
@@ -36,12 +31,20 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .footer h2{
   color: antiquewhite;
   font-weight: 600;
-
 }
-h2 {
-  font-weight: 600;
+.my-icon {
+  color: #00b400;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
 }
-#services .icon {
-  color: rgb(0, 90, 12);
-  font-size: 50px !important;
+.linkBok {
+  display: block;
+  padding: 10px;
+  transition: 0.3s all;
+}
+.linkBok:hover {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 0px 5px #00000010;
 }
