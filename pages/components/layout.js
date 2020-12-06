@@ -9,7 +9,7 @@ export default function Layout({ children }) {
             <div className="container">
                 <div className="columns">
                     <div className="column">
-                        <Link href="/"><a className="navbar-item"><img src="logo-w.png" width="200" /></a></Link>
+                        <Link href="/"><a className="navbar-item"><img src="/logo-w.png" width="200" /></a></Link>
                         <p>Otimize a sua empresa com o que existe de mais moderno e eficiente.
                         Nossa empresa é líder no ramo de gestão empresarial. Descomplique sua rotina de trabalho!</p>
                     </div>

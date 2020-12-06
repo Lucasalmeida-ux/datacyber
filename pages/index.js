@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Layout from './components/layout'
 import Services from './components/Services'
 import Products from './components/Products'
+import Banner from './components/Banner'
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
         <title>Datacyber</title>
         <link rel="icon" href="/favico.ico" />
       </Head>
-      <a href="https://pag.ae/7WxbMVsb2/button" target="_blank" title="Pagar com PagSeguro" className="banner"><img src="banner.png" width="200" /></a>
+      
       <Layout>
         <Hero></Hero>
+        <Banner></Banner>
         <Services></Services>
         <Products></Products>
       </Layout>

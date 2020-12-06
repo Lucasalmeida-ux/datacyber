@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Layout from './components/layout'
-import Products from './components/products'
+import Layout from '../components/layout'
 
-export default function Produtos() {
+export default function Varejista() {
   return (
     <div>
       <Head>
@@ -10,7 +9,6 @@ export default function Produtos() {
         <link rel="icon" href="/favico.ico" />
       </Head>
       <Layout>
-        <Products></Products>
       </Layout>
     </div>
   )
