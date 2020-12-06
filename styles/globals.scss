@@ -1,6 +1,5 @@
 @charset "utf-8";
 @import 'bulma/bulma';
-@import "./bulma.scss";
 
 html,
 body {
@@ -38,4 +37,11 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: antiquewhite;
   font-weight: 600;
 
+}
+h2 {
+  font-weight: 600;
+}
+#services .icon {
+  color: rgb(0, 90, 12);
+  font-size: 50px !important;
 }

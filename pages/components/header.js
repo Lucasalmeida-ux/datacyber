@@ -40,7 +40,7 @@ const Menu = () => (
 export default function Header() {
     return (
         <nav className="navbar is-success" role="navigation" aria-label="main navigation">
-            <div class="container">
+            <div className="container">
             <Logo />
             <Menu />
             </div>

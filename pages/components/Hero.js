@@ -1,7 +1,6 @@
-import styles from './Hero.module.css'
 export default function Hero() {
     return (
-    <section id={styles.Hero} className="hero is-bold">
+    <section className="hero is-bold">
         <div className="hero-body">
             <div className="container">
                 <div className="columns">
