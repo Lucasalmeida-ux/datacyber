@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from './components/layout'
-import Products from './components/products'
+import Products from './components/Products'
 
 export default function Produtos() {
   return (
