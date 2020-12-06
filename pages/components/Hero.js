@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-    <section className="hero is-bold has-background-primary-light">
+    <section className="hero has-background-primary-light">
         <div className="hero-body">
             <div className="container">
                 <div className="columns">

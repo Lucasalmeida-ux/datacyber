@@ -27,7 +27,7 @@ const Menu = () => (
         <div className="navbar-start">  
         { menuItens.map(function(item) {
             return  <Link key={item.key} href={item.link}>
-                        <a className="navbar-item has-text-light has-text-weight-medium is-uppercase">{item.label}</a>
+                        <a className="navbar-item has-text-white has-text-weight-medium is-uppercase">{item.label}</a>
                     </Link>
         }) }
         </div>

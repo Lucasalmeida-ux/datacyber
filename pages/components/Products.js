@@ -16,7 +16,7 @@ export default function Products() {
                             <FontAwesomeIcon icon={faBoxes} className="my-icon" />
                             <h2 className="title is-5">Sistema para Gestão de Distribuidoras</h2>
                             <p>Para quem deseja ter controle de vendas, Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
-                            <button class="button is-primary my-3">Saiba Mais</button>
+                            <button class="button is-primary my-3">Benefícios para distribuidoras</button>
                         </a></Link>
                     </div>
                     <div className="column">
@@ -24,7 +24,7 @@ export default function Products() {
                             <FontAwesomeIcon icon={faShoppingBasket} className="my-icon" />
                             <h2 className="title is-5">Comércios varegistas</h2>
                             <p>Para quem deseja ter controle de vendas,Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
-                            <button class="button is-primary my-3">Saiba Mais</button>
+                            <button class="button is-primary my-3">Benefícios para varegistas</button>
                         </a></Link>
                     </div>
                 </div>

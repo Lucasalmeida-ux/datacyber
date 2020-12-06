@@ -48,3 +48,12 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   border-radius: 10px;
   box-shadow: 5px 0px 5px #00000010;
 }
+.banner {
+  width: 100vw;
+}
+.banner img {
+  width: auto;
+}
+.navbar-item:hover {
+  color: #fff !important;
+}

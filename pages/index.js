@@ -11,6 +11,7 @@ export default function Home() {
         <title>Datacyber</title>
         <link rel="icon" href="/favico.ico" />
       </Head>
+      <a href="https://pag.ae/7WxbMVsb2/button" target="_blank" title="Pagar com PagSeguro" className="banner"><img src="banner.png" width="200" /></a>
       <Layout>
         <Hero></Hero>
         <Services></Services>
