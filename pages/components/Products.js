@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Products() {
     return (
-        <div className="has-background-primary-light">
+        <div className=" has-background-light">
             <div id="Products" className="container has-text-centered py-6">
                 <h1 className="title">Nossos Produtos </h1>
                 <h2 className="subtitle">

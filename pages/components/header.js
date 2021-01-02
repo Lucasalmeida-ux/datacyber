@@ -11,7 +11,7 @@ const socialsItens = [
 ]
 
 const Logo = () => (
-    <div className="navbar-brand">
+    <div className="navbar-brand ">
         <Link href="/"><a className="navbar-item"><img src="/logo.png" width="200" /></a></Link>
 
     <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -39,7 +39,7 @@ const Menu = () => (
 
 export default function Header() {
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav className="navbar  has-background-light" role="navigation" aria-label="main navigation">
             <div className="container">
             <Logo />
             <Menu />

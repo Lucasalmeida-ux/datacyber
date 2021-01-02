@@ -2,15 +2,15 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="hero has-background-success">
+        <section className="hero">
             <div className="hero-body">
                 <div className="container">
                     <div className="columns">
                         <div className="column is-two-thirds">
-                            <h1 className="title mt-large has-text-white">
+                            <h1 className="title mt-large">
                                 Tecnologia em sistemas
                         </h1>
-                            <h3 className="subtitle desktop-mt-5 has-text-white">
+                            <h3 className="subtitle desktop-mt-5">
                                 Otimize a sua empresa com o que existe de mais moderno e eficiente.<br />
                             Nossa empresa é líder no ramo de gestão empresarial.<br />
                             Descomplique sua rotina diária !
