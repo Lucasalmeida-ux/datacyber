@@ -1,5 +1,6 @@
 export default function CardCollapseble({ children, title}) {
-  const idBox = title.replace(/\s/g, '');
+  const idBox = Math.round(Math.random(1,5) * 1000);
+
   return (
     <div id="card">
       <input type="checkbox" id={idBox} />
