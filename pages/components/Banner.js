@@ -34,7 +34,7 @@ export default function Banner() {
     const pagSeguro = "https://pag.ae/7WxbMVsb2/button";
     return (
         <div className="has-background-light">
-            <a onClick={Modal} target="_blank" title="Assine um plano personalizado" className="banner"><img src="banner.png" width="200" /></a>
+            <a href="/sistema/assinatura"  title="Assine um plano personalizado" className="banner"><img src="banner.png" width="200" /></a>
             <Modal></Modal>
         </div>
 
