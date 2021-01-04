@@ -16,13 +16,13 @@ export default function Services() {
                 <div className="column">
                     <FontAwesomeIcon icon={faHeadset} className="my-icon" />
                     <h2 className="title is-5">Suporte</h2>
-                    <p>Contamos com uma equipe altamente capacitada e pronta para oferecer o atendimento rápido para ajuda-lo ao telefone, online e conexão remota.<br />
-O treinamento é feito online, com aulas explicativas e se houver dúvidas, poderão ser tiradas pelo telefone a qualquer hora.</p>
+                    <p>O treinamento é feito online, com aulas explicativas e se houver dúvidas, poderão ser tiradas pelo telefone a qualquer hora.
+</p>
                 </div>
                 <div className="column">
                     <FontAwesomeIcon icon={faPenAlt} className="my-icon" />
                     <h2 className="title is-5">Atualizações</h2>
-                    <p>Sabemos que cada empresa é única. Por isso, complementamos sem adesão o sistema de acordo com a necessidade de cada cliente.</p>
+                    <p>Devido ao alto nível de aderência do sistema, as atualizações são rápidas e seguras sem custo adicional.</p>
                 </div>
             </div>
         </div>
