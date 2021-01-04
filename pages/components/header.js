@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const menuItens = [
     {link: "/quem-somos", label: "Quem Somos", key: "quemsomos"},
-    {link: "/produtos", label: "Produtos e Serviços", key: "produtoseservicos"},
+    {link: "/produtos", label: "Soluções", key: "produtoseservicos"},
     {link: "/contato", label: "Contato", key: "contato"},
 ]
 const socialsItens = [

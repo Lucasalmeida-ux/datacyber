@@ -2,14 +2,35 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 
 function FormAssinatura() {
-
-    
-    const sistemas = ['Sisitema de vendas em atacado', 'Sistema de vendas em varejo']
-    const sistemaEscolhido = new String();
-    const handleSubmit = () => {
-        alert('submit')
+    const dadosForm = []
+    const sistemas = [
+        {value: "atacado", title: 'Sisitema de vendas em atacado'}, 
+        {value: "varejo",  title: 'Sistema de vendas em varejo'}
+    ]
+    let options = [];
+    for(let option in sistemas) {
+        options.push(<option key={sistemas[option].value} value={sistemas[option].value}>{sistemas[option].title}</option>)
+    };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+            const val = [];
+            for(let i = 0; i < e.target.length -1; i++) {
+                val.push(<li key={e.target[i].value}>{e.target[i].value}</li>);
+            }
+            SetDados(val);
     }
-    
+    const SetDados = val => {
+        if(typeof val !== 'object'){
+            return(
+                <h1>Dados</h1>
+            )
+        }
+        return(
+        <ul className="title">
+             {/* {val} */}
+        </ul>
+        )
+    }
     return (
         <div className="columns">
             <div className="column is-two-thirds">
@@ -18,18 +39,17 @@ function FormAssinatura() {
                     <p className="subtitle">Preencha o formulário, entraremos em contato com você.</p>
                 </header>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" className="input my-2" name="name" placeholder="Nome" />
-                    <input type="text" className="input my-2" name="corporate" placeholder="Nome da empresa" />
-                    <input type="phone" className="input my-2" name="phone" placeholder="Telefone" />
-                    <input type="email" className="input my-2" name="email" placeholder="E-mail" />
+                    <input type="text" className="input my-2" name="name" placeholder="Nome" required />
+                    <input type="text" className="input my-2" name="corporate" placeholder="Nome da empresa" required />
+                    <input type="phone" className="input my-2" name="phone" placeholder="Telefone" required />
+                    <input type="email" className="input my-2" name="email" placeholder="E-mail" required />
                     <div className="my-4">
-                        <input type="password" className="input" name="pass" placeholder="Senha" />
-                        <input type="password my-2" className="input" name="confirmpass" placeholder="Confirmar Senha" />
+                        <input type="password" className="input" name="pass" placeholder="Senha" required />
+                        <input type="password" className="input my-2" name="confirmpass" placeholder="Confirmar Senha" required />
                     </div>
                     <div class="select">
                         <select>
-                            <option>Select dropdown</option>
-                            <option>With options</option>
+                            {options}
                         </select>
                     </div>
                     <div className="py-3">
@@ -39,9 +59,7 @@ function FormAssinatura() {
                 </form>
             </div>
             <div className="column">
-                <h1 className="subtitle">
-                    Sistema: {sistemaEscolhido}
-                </h1>
+                <SetDados></SetDados>
             </div>
         </div>
     )

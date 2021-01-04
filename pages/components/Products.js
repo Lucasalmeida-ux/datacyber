@@ -12,19 +12,19 @@ export default function Products() {
             </h2>
                 <div className="columns">
                     <div className="column">
-                        <Link href="/sistema/atacadista"><a className="linkBok">
-                            <FontAwesomeIcon icon={faBoxes} className="my-icon" />
-                            <h2 className="title is-5">Sistema para Gestão de Distribuidoras</h2>
-                            <p>Para quem deseja ter controle de vendas, Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
-                            <button className="button is-link my-3">Benefícios para distribuidoras</button>
-                        </a></Link>
-                    </div>
-                    <div className="column">
                         <Link href="/sistema/varejista"><a className="linkBok">
                             <FontAwesomeIcon icon={faShoppingBasket} className="my-icon" />
                             <h2 className="title is-5">Comércios varegistas</h2>
                             <p>Para quem deseja ter controle de vendas,Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
                             <button className="button is-link my-3">Benefícios para varegistas</button>
+                        </a></Link>
+                    </div>
+                    <div className="column">
+                        <Link href="/sistema/atacadista"><a className="linkBok">
+                            <FontAwesomeIcon icon={faBoxes} className="my-icon" />
+                            <h2 className="title is-5">Sistema de Gestão para indústrias</h2>
+                            <p>Para quem deseja ter controle de vendas, Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
+                            <button className="button is-link my-3">Benefícios para distribuidoras</button>
                         </a></Link>
                     </div>
                 </div>
