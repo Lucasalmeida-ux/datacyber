@@ -174,7 +174,7 @@ class Contact extends Component {
         event.preventDefault()
 //[6]
 
-        const recipientMail = 'lucasnopc@gmail.com'
+        const recipientMail = 'contato@delamimos.com.br'
         const { name, mail, formContent } = this.state
 
         const res = await sendContactMail(recipientMail, name, mail, formContent)
