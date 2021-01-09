@@ -20,7 +20,7 @@ export const sendContactMail = async (recipientMail, name, senderMail, content) 
         return res
 
     } catch (error) {
-        console.dir('aqui')
+        console.dir(error)
         return error
     }
 }
