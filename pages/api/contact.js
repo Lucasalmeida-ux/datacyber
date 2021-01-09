@@ -4,7 +4,7 @@ const emailPass = "K25xr4722"
 
 const transporter = nodemailer.createTransport({
     host: "smtp.hostinger.com.br",
-    port: 25,
+    port: 587,
     auth: {
         user: "contato@delamimos.com.br",
         pass: emailPass
