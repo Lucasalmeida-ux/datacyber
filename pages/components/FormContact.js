@@ -189,7 +189,6 @@ class Contact extends Component {
 
         } else {
             this.setState({ formButtonText: "Preencha todos os campos." })
-            console.dir(res)
         }
 //[7]
     }
