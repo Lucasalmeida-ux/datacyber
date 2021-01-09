@@ -1,6 +1,6 @@
 import { Component } from "react"
 import TextareaAutosize from "react-autosize-textarea"
-import { sendContactMail } from "./mail-api" 
+import { sendContactMail } from "./networking/mail-api" 
 //[1]
 
 class Contact extends Component {
