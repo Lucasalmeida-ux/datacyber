@@ -181,14 +181,15 @@ class Contact extends Component {
         if (res.status < 300) {
             this.setState({
                 formButtonDisabled: true,
-                formButtonText: "Thanks for your message",
+                formButtonText: "Obrigado, entraremos em contato.",
                 name: "",
                 mail: "",
                 formContent: ""
             })
 
         } else {
-            this.setState({ formButtonText: "Please fill out all fields." })
+            this.setState({ formButtonText: "Preencha todos os campos." })
+            console.dir(res)
         }
 //[7]
     }

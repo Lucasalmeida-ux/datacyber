@@ -33,7 +33,7 @@ const mailer = ({ senderMail, name, text, recipientMail }) => {
     const message = {
         from,
         to: `${recipientMail}`,
-        subject: `New message from ${from}`,
+        subject: `Nova mensagem de ${from}`,
         text,
         replyTo: from
     }
