@@ -6,7 +6,7 @@ import { sendContactMail } from "../../components/networking/mail-api"
 class Contact extends Component {
     state = {
         formButtonDisabled: false,
-        formButtonText: "Send",
+        formButtonText: "Enviar",
         name: "",
         mail: "",
         formContent: ""
