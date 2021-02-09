@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="hero">
+        <section className="hero has-background-info-light">
             <div className="hero-body">
                 <div className="container">
                     <div className="columns">
