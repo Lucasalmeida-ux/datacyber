@@ -7,7 +7,6 @@ export default function Header() {
     function openMenu(e) {
         e.preventDefault();
         setToogleMenu(!toogleMenu);
-        console.log('toogleMenu', toogleMenu)
     }
     return (
         <header className="flex justify-between bg-white p-2 shadow-md">
