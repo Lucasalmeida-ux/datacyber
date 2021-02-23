@@ -33,10 +33,3 @@
     color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
 }
 .carousel input[type="radio"] {display: none;}
-
-input, textarea, select {
-    @apply outline-none w-full p-2 text-gray-600 border border-2 border-gray-300
-}
-.icone {
-    @apply mx-auto text-5xl text-blue-500;
-}
