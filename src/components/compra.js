@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function Compra() {
     return (
         <div className="p-10 md:p-8 bg-blue-900">
@@ -38,8 +37,7 @@ export default function Compra() {
                             <h3 className="text-gray-400 text-sm"><a href="http://web.whatsapp.com/send?1=pt_BR&amp;phone=5511952185072" class="text-green-400 group-hover:text-green-600">Envie o comprovante do depósito pelo whatsapp.</a></h3>
 
                         </div>
-                        <h1 className="mx-auto cursor-pointer bg-gray-900 hover:bg-gray-300 text-yellow-400 hover:text-blue-800 font-semibold text-md table p-3 m-1 rounded"
-                        >Pagseguro</h1>
+                                <a href="https://pag.ae/7WxbMVsb2/button" title="Pagar com PagSeguro"  target="_blank" className="mx-auto cursor-pointer bg-gray-900 hover:bg-gray-300 text-yellow-400 hover:text-blue-800 font-semibold text-md table p-3 m-1 rounded">Pagseguro</a>
                     </div>
                 </div>
 

@@ -22,18 +22,18 @@ export default function Comercio() {
                     </p>
                     </div>
                     <div className="p-3 md:p-6">
-                        <iframe src="https://www.youtube.com/embed/40UKP-1W810" 
+                        {/* <iframe src="https://www.youtube.com/embed/40UKP-1W810" 
                         frameborder="0" 
                         height="250"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen=""
                         className="w-full " >
-                        </iframe>
+                        </iframe> */}
                     </div>
                 </div>
                 <div className="p-3 bg-gradient-to-br from-blue-100 via-blue-50 to-green-50 text-center md:p-10">
                 <h2 className="text-2xl text-gray-800 font-bold">Quem usa nosso sistema</h2>
-                <h3 className="text-gray-700">Têm nosso compromisso em manter suporte e atualizações vitalícias.</h3>
+                <h3 className="text-gray-700">Têm suporte e atualizações vitalicias</h3>
                 </div>
                 <Compra></Compra>
                 <FeaturesComercio></FeaturesComercio>
