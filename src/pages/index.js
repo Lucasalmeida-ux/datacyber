@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
     <Head>
-        <title>Sistemas</title>
+        <title>Datacyber - Sistemas para Atacado e Varejo</title>
         <link rel="icon" href="/favico.ico" />
       </Head>
     <Layout>

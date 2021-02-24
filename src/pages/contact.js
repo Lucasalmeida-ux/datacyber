@@ -11,8 +11,8 @@ export default function Contact() {
             <Layout>
                 <div className="bg-gradient-to-r from-blue-400 via-blue-300 to-blue-500 p-3">
                     <h1 className="md:text-2xl uppercase font-medium text-center text-white m-5">Formulário de Solicitação de orçamento</h1>
-                    <div className="grid grid-cols-6  text-white">
-                        <div className="col-span-4 col-start-2">
+                    <div className="grid grid-cols-9 text-white">
+                        <div className="col-span-3 col-start-4">
                             <form>
                                 <label htmlFor="name">Nome:</label>
                                 <input type="text" id="name" placeholder="Nome Completo" className="outline-none" />
@@ -38,9 +38,6 @@ export default function Contact() {
 
                                 <input type="submit" value="Solicitar Orçamento" className="cursor-pointer bg-gray-800 text-gray-200 border-none hover:bg-gray-700" />
                             </form>
-                        </div>
-                        <div>
-
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import Layout from '../../components/layout/Layout'
 import FeaturesComercio from '../../components/FeaturesComercio'
 import Head from 'next/head'
+import Compra from '../../components/compra'
 
 export default function Comercio() {
     return (
@@ -34,6 +35,7 @@ export default function Comercio() {
                 <h2 className="text-2xl text-gray-800 font-bold">Quem usa nosso sistema</h2>
                 <h3 className="text-gray-700">Têm nosso compromisso em manter suporte e atualizações vitalícias.</h3>
                 </div>
+                <Compra></Compra>
                 <FeaturesComercio></FeaturesComercio>
             </Layout>
         </>

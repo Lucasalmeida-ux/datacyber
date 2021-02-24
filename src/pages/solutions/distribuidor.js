@@ -1,6 +1,7 @@
 import Layout from '../../components/layout/Layout'
 import FeaturesAtacado from '../../components/FeatureAtacado'
 import Head from 'next/head'
+import Compra from '../../components/compra'
 
 export default function Distribuidor() {
     return (
@@ -25,7 +26,9 @@ export default function Distribuidor() {
                 <h2 className="text-2xl text-gray-800 font-bold">Quem usa nosso sistema</h2>
                 <h3 className="text-gray-700">Têm nosso compromisso em manter suporte e atualizações vitalícias.</h3>
                 </div>
+                <Compra></Compra>
                 <FeaturesAtacado></FeaturesAtacado>
+                
             </Layout>
         </>
     )
