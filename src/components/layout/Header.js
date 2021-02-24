@@ -30,9 +30,9 @@ export default function Header() {
                         </Link>
                     </item>
                     <item className="w-screen bg-white block md:inline">
-                        <Link href="/contact">
-                            <a className="transition-colors text-gray-400 hover:text-white uppercase mr-5 md:py-2 px-4 md:font-semibold rounded-md md:bg-gray-100 hover:bg-blue-400">Orçamento</a>
-                        </Link>
+                        
+                            <a href="http://eepurl.com/hplomL" target="_BLANK" className="transition-colors text-gray-400 hover:text-white uppercase mr-5 md:py-2 px-4 md:font-semibold rounded-md md:bg-gray-100 hover:bg-blue-400">Orçamento</a>
+                        
                     </item>
                 </nav>
             </div>
