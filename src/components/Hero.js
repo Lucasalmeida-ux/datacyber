@@ -10,7 +10,7 @@ export default function Hero() {
                     <div className="bg-opacity-10 bg-mercado bg-cover bg-center block h-full w-full p-3">
                         <h1 className="p-3 md:mt-5 text-sm font-medium md:text-4xl md:mx-20 text-white">Software para Comércios</h1>
                         <p className="p-3 text-sm md:text-xl mb-5 md:mx-20 text-white md:max-w-2xl" >Para quem deseja ter controle de vendas,Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
-                        <Link href="/services/varejista">
+                        <Link href="/solutions/comercio">
                             <a className="transition-colors rounded-md shadow-md mx-3 md:mx-24 md:mt-20 px-4 py-3 bg-blue-200 hover:bg-white text-gray-800">Sistema para comércios Varejista</a>
                         </Link>
                     </div>
@@ -23,7 +23,7 @@ export default function Hero() {
                     <div className="bg-opacity-10 bg-atacado bg-cover bg-center block h-full w-full p-3">
                         <h1 className="p-3 md:mt-5 text-sm font-medium md:text-4xl md:mx-20 text-white">Software pra Distribuidoras</h1>
                         <p className="p-3 text-sm md:text-xl mb-5 md:mx-20 text-white md:max-w-2xl" >Para quem deseja ter controle de vendas, Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
-                        <Link href="/services/varejista">
+                        <Link href="/solutions/distribuidor">
                             <a className="transition-colors rounded-md shadow-md mx-3 md:mx-24 md:mt-20 px-4 py-3 bg-blue-200 hover:bg-white text-gray-800">Sistema para distribuidoras</a>
                         </Link>
                     </div>
