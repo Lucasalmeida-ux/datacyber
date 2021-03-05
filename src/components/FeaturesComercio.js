@@ -1,9 +1,15 @@
 import { FaCoins, FaEye ,FaTicketAlt, FaPlus, FaBox, FaUser, FaStickyNote, FaDog, FaDollarSign, FaFileInvoiceDollar, FaClipboard, FaListAlt } from 'react-icons/fa'
+import { HiReceiptTax } from 'react-icons/hi'
 import Elem from './ElemFeature'
 
 export default function FeaturesComercio() {
     return (
         <div className="grid grid-cols-2 md:grid-cols-4 p-3 md:p-10 text-center">
+            <Elem 
+            icons={<HiReceiptTax className="icone"></HiReceiptTax>} 
+            title="Emissão de cupon/nota fiscal" 
+            desc="Integração completa de emissões fiscais"
+            ></Elem>
             <Elem 
             icons={<FaBox className="icone"></FaBox>} 
             title="Gerencia de Estoque" 
