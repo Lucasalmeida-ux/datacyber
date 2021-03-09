@@ -32,11 +32,15 @@ export default function Comercio() {
                     </div>
                 </div>
                 <div className="p-3 bg-gradient-to-br from-blue-100 via-blue-50 to-green-50 text-center md:p-10">
-                <h2 className="text-2xl text-gray-800 font-bold">Quem usa nosso sistema</h2>
-                <h3 className="text-gray-700">Têm suporte e atualizações vitalicias</h3>
+                <h2 className="text-2xl text-gray-800 font-bold">Quanto vale seu estoque ?</h2>
+                <h3 className="text-gray-700">Através dos relatórios você consegue saber qual é o custo total do seu estoque.</h3>
                 </div>
                 <Compra></Compra>
                 <FeaturesComercio></FeaturesComercio>
+                <div className="p-3 bg-gradient-to-br from-blue-100 via-blue-50 to-green-50 text-center md:p-10">
+                <h2 className="text-2xl text-gray-800 font-bold">Conclusão</h2>
+                <h3 className="text-gray-700">Nosso sistema possue ferramentas avançadas que fazem total diferença na sua gestão sem adesões extras</h3>
+                </div>
             </Layout>
         </>
     )
