@@ -11,10 +11,10 @@ export default function Hero() {
                         <h1 className="p-3 md:mt-5 text-sm font-medium md:text-4xl md:mx-20 text-white">Software para Comércios e Distribuidoras</h1>
                         <p className="p-3 text-sm md:text-xl mb-5 md:mx-20 text-white md:max-w-2xl" >Para quem deseja ter controle de vendas,Emissão de nfe, Emissão de cupom fiscal, entrada mercadorias,estoque, fluxo de caixa, vendedores, fornecedores,comissões, relatorios, contas a pagar.</p>
                         <Link href="/solutions/comercio">
-                            <a className="transition-colors rounded-md shadow-md mx-3 md:ml-24 md:mt-20 px-4 py-3 bg-blue-200 hover:bg-white text-gray-800">Software para Comércios</a>
+                            <a className="text-center mb-2 md:inline-block block transition-colors rounded-md shadow-md mx-3 md:ml-24 px-4 py-3 bg-blue-200 hover:bg-white text-gray-800">Software para Comércios</a>
                         </Link>
                         <Link href="/solutions/distribuidor">
-                            <a className="transition-colors rounded-md shadow-md mx-3 md:mt-20 px-4 py-3 bg-blue-200 hover:bg-white text-gray-800">Software para Distribuidoras e Indústrias</a>
+                            <a className="text-center mb-2 md:inline-block block transition-colors rounded-md shadow-md mx-3 px-4 py-3 bg-blue-200 hover:bg-white text-gray-800">Software para Distribuidoras e Indústrias</a>
                         </Link>
                     </div>
                 </div>
