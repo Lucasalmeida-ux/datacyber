@@ -40,7 +40,7 @@ export default function Footer() {
                     </div>
 
                     <div className="col-span-3">
-                        <h2 className="uppercase font-medium">Luana Barbosa de Oliveira</h2>
+                        <h2 className="uppercase font-medium">Luana de Oliveira Fernandes</h2>
                         <span className="text-gray-400 group-hover:text-gray-600">Comercial</span>
                     </div>
 
@@ -53,7 +53,7 @@ export default function Footer() {
                     </div>
 
                     <div className="col-span-3">
-                        <h2 className="uppercase font-medium">Lcas Georgenes</h2>
+                        <h2 className="uppercase font-medium">Lucas Georgenes</h2>
                         <span className="text-gray-400 group-hover:text-gray-600">Suporte</span>
                     </div>
 

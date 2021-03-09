@@ -21,12 +21,12 @@ export default function Header() {
                 <nav className={`${toogleMenu ? 'block' : 'hidden'} bg-white md:bg-transparent divide-y-2 md:divide-none z-10 fixed md:static top-10 left-0 md:inline-block md:p-3`}>
                     <item className="w-screen bg-white block md:inline">
                         <Link href="/solutions/comercio">
-                            <a className="transition-colors text-gray-400 hover:text-blue-400 mr-5 uppercase text-sm md:font-bold px-4">Soluções para comércios</a>
+                            <a className="transition-colors text-gray-400 hover:text-blue-400 mr-5 uppercase text-sm md:font-bold px-4">Soluções para Comércios</a>
                         </Link>
                     </item>
                     <item className="w-screen bg-white block md:inline">
                         <Link href="/solutions/distribuidor">
-                            <a className="transition-colors text-gray-400 hover:text-blue-400 mr-5 uppercase text-sm md:font-bold px-4">Soluções para distribuidoras</a>
+                            <a className="transition-colors text-gray-400 hover:text-blue-400 mr-5 uppercase text-sm md:font-bold px-4">Soluções para Distribuidoras e Indústrias</a>
                         </Link>
                     </item>
                     <item className="w-screen bg-white block md:inline">
