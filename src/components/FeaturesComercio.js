@@ -73,29 +73,29 @@ export default function FeaturesComercio() {
             ></Elem>
             <Elem 
             icons={<FaDollarSign className="icone"></FaDollarSign>} 
-            title="Contas a Receber" 
-            desc="Visualizar pagamentos pendentes do seus clientes"
+            title="Contas à Receber" 
+            desc="Visualizar pagamentos pendentes dos seus clientes"
             ></Elem>
             <Elem 
             icons={<FaFileInvoiceDollar className="icone"></FaFileInvoiceDollar>} 
-            title="gerenciar contas a pagar" 
-            desc="Você consegue administrar boletos, despesas fixas e dispesas variáveis"
+            title="contas à pagar" 
+            desc="Relatórios de gastos fixos, diários e futuros"
             ></Elem>
             <Elem 
             icons={<FaClipboard className="icone"></FaClipboard>} 
             title="Relatórios" 
-            desc="Nosso sistema possue diversos relatórios gerenciais"
+            desc="Nosso sistema contém diversos relatórios gerenciais"
             link="/docs/relatorios"
             ></Elem>
             <Elem 
             icons={<FaListAlt className="icone"></FaListAlt>} 
-            title="Orçamento" 
-            desc="Emissão de Orçamentos"
+            title="Orçamentos" 
+            desc="Tenha praticidade e organização para fechar seus negócios"
             ></Elem>
             <Elem 
             icons={<FaPlus className="icone"></FaPlus>} 
             title="Pedidos" 
-            desc="Emissão de Pedidos / Balcão"
+            desc="O sistema automatiza os processos de pedidos de forma organizada agilizando seu trabalho"
             ></Elem>
             <Elem 
             icons={<FaTicketAlt className="icone"></FaTicketAlt>} 
@@ -104,15 +104,9 @@ export default function FeaturesComercio() {
             ></Elem>
             <Elem 
             icons={<FaEye className="icone"></FaEye>} 
-            title="Consulta no Caixa" 
-            desc="Visualize informações/históricos"
+            title="Consulta do Caixa" 
+            desc="Visualize todas as informações do fluxo diário ou mensal de forma simplificada"
             ></Elem>
-            <Elem 
-            icons={<FaCoins className="icone"></FaCoins>} 
-            title="Contas a Pagar" 
-            desc="Relatório de gastos"
-            ></Elem>
-
         </div>
             )
 }

@@ -7,19 +7,19 @@ export default function Comercio() {
     return (
         <>
             <Head>
-                <title>Sistema para Comercios</title>
+                <title>Sistema para Comércios</title>
                 <link rel="icon" href="/favico.ico" />
             </Head>
             <Layout>
-                <div className="grid md:grid-cols-2 p-3 text-white text-center md:text-left bg-mercado">
-                    <div className="p-3 md:p-7">
-                        <h1 className="text-2xl text-gray-100 mt-3 md:mt-14">Sistema de Comércios varegistas</h1>
+                <div className="grid md:grid-cols-4 p-3 text-white text-center md:text-left bg-mercado">
+                    <div className="col-span-2 col-start-2 text-center p-3 md:p-7">
+                        <h1 className="text-2xl text-gray-100 mt-3 md:mx-5 font-semibold">Sistema para comércios e varejos</h1>
                         <p className="text-gray-50">
-                            Para quem deseja ter controle de vendas,Emissão de nfe,
-                            Emissão de cupom fiscal, entrada mercadorias,estoque,
-                            fluxo de caixa, vendedores, fornecedores,comissões,
-                            relatorios, contas a pagar.
-                    </p>
+                            Para quem deseja ter controle de vendas, Emissão de NF-e,
+                            Emissão de cupom fiscal, entrada mercadorias, estoque,
+                            fluxo de caixa, vendedores, fornecedores, comissões,
+                            relatórios, contas à pagar, entre outros.
+                        </p>
                     </div>
                     <div className="p-3 md:p-6">
                         {/* <iframe src="https://www.youtube.com/embed/40UKP-1W810" 
