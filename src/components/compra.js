@@ -13,8 +13,8 @@ export default function Compra() {
                 </div>
                 <div className="col-span-2">
                     <h3 className="text-blue-900 text-lg">Métodos de Pgamento:</h3>
-                    <div className="md:flex">
-                        <div className="mx-auto cursor-pointer bg-gray-900 hover:bg-gray-300 text-blue-300 hover:text-blue-800 font-semibold text-md table p-3 m-1 rounded">
+                    <div className="">
+                        <div className="cursor-pointer bg-gray-900 hover:bg-gray-300 text-blue-300 hover:text-blue-800 font-semibold text-md table p-3 m-1 rounded">
                             <h2>Pix</h2>
                             <div className="bg-white w-50 h-50">
                                 <Image
@@ -25,7 +25,8 @@ export default function Compra() {
                                 />
                             </div>
                         </div>
-                        <div className="mx-auto group bg-gray-900 hover:bg-gray-300 text-gray-700 hover:text-gray-800 font-semibold text-md table p-3 m-1 rounded">
+                        <a href="https://pag.ae/7WxbMVsb2/button" title="Pagar com PagSeguro"  target="_blank" className="cursor-pointer bg-gray-900 hover:bg-gray-300 text-yellow-400 hover:text-blue-800 font-semibold text-md table p-3 m-1 rounded">Pagseguro</a>
+                        {/* <div className="mx-auto group bg-gray-900 hover:bg-gray-300 text-gray-700 hover:text-gray-800 font-semibold text-md table p-3 m-1 rounded">
                             <h2 className="mb-3 text-blue-300 group-hover:text-gray-700">Transferência Bancária</h2>
                             <h1 className="group-hover:text-gray-700" >Luana Barbosa de Oliveira</h1>
                             <p>
@@ -36,8 +37,7 @@ export default function Compra() {
                             </p>
                             <h3 className="text-gray-400 text-sm"><a href="http://web.whatsapp.com/send?1=pt_BR&amp;phone=5511952185072" class="text-green-400 group-hover:text-green-600">Envie o comprovante do depósito pelo whatsapp.</a></h3>
 
-                        </div>
-                                <a href="https://pag.ae/7WxbMVsb2/button" title="Pagar com PagSeguro"  target="_blank" className="mx-auto cursor-pointer bg-gray-900 hover:bg-gray-300 text-yellow-400 hover:text-blue-800 font-semibold text-md table p-3 m-1 rounded">Pagseguro</a>
+                        </div> */}
                     </div>
                 </div>
 

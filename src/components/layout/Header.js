@@ -18,7 +18,7 @@ export default function Header() {
 
             </div>
             
-                <nav className={`${toogleMenu ? 'block' : 'hidden'} bg-white md:bg-transparent divide-y-2 md:divide-none z-10 fixed md:static top-10 left-0 md:inline-block md:p-3`}>
+                <nav className={`${toogleMenu ? 'block' : 'hidden'} bg-white md:bg-transparent divide-y-2 md:divide-none z-10 fixed md:static top-10 left-0 md:inline-block md:p-3 float-right`}>
                     
                         <Link href="/solutions/comercio">
                             <a className="block sm:inline transition-colors text-gray-400 hover:text-blue-400 mr-5 md:mr-1 md:mr-5 uppercase text-sm md:text-xs lg:text-sm md:font-bold px-4 md:px-1 lg:px-4">Soluções para Comércios</a>
