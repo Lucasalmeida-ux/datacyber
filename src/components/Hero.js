@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Hero() {
     return (
-        <div className="carousel relative shadow-lg bg-white">
+        <div className="carousel shadow-lg bg-white">
             <div className="carousel-inner relative overflow-hidden w-full">
                 {/* <!--Slide 1--> */}
                 <input className="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" defaultChecked />
