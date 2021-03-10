@@ -11,7 +11,7 @@ export default function Comercio() {
                 <link rel="icon" href="/favico.ico" />
             </Head>
             <Layout>
-                <div className="grid md:grid-cols-4 p-3 text-white text-center md:text-left bg-mercado">
+                <div className="w-full grid md:grid-cols-4 p-3 text-white text-center md:text-left bg-mercado">
                     <div className="col-span-2 col-start-2 text-center p-3 md:p-7">
                         <h1 className="text-2xl text-gray-100 mt-3 md:mx-5 font-semibold">Sistema para comércios e varejos</h1>
                         <p className="text-gray-50">

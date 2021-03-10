@@ -9,7 +9,7 @@ export default function Header() {
         setToogleMenu(!toogleMenu);
     }
     return (
-        <header className="justify-between bg-white p-2 shadow-md">
+        <header className="justify-between bg-white p-2 lg:shadow-md">
             <div className="inline-block p-1 md:p-2">
                 <a className="pr-3 md:hidden ">
                     <FaBars onClick={openMenu} className="text-gray-300 text-lg inline-block" />

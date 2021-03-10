@@ -11,7 +11,7 @@ export default function Distribuidor() {
                 <link rel="icon" href="/favico.ico" />
             </Head>
             <Layout>
-                <div className="grid grid-cols-6 p-10 text-white text-center bg-atacado">
+                <div className="w-full grid grid-cols-6 p-10 text-white text-center bg-atacado">
                     <div className="col-start-2 col-span-4 p-3 md:p-5">
                         <h1 className="text-2xl text-gray-100 mt-3 md:mt-5">Sistema para gestão de Distribuidoras e Indústrias</h1>
                         <p className="text-gray-50">

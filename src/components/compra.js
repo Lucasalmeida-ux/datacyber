@@ -35,9 +35,9 @@ export default function Compra() {
                             <span className="group-hover:text-gray-700" >Ag :</span> 7012-2
                             <span className="group-hover:text-gray-700" >Conta corrente: </span>7428-4
                             </p>
-                            <h3 className="text-gray-400 text-sm"><a href="http://web.whatsapp.com/send?1=pt_BR&amp;phone=5511952185072" class="text-green-400 group-hover:text-green-600">Envie o comprovante do depósito pelo whatsapp.</a></h3>
-
+                            
                         </div> */}
+                        <h3 className="text-gray-400 text-sm"><a href="http://web.whatsapp.com/send?1=pt_BR&amp;phone=5511952185072" class="text-green-400 group-hover:text-green-600">Envie o comprovante do depósito pelo whatsapp.</a></h3>
                     </div>
                 </div>
 
