@@ -26,7 +26,7 @@ export default function Header() {
                     
                     
                         <Link href="/solutions/distribuidor">
-                            <a className="block sm:inline ransition-colors text-gray-400 hover:text-blue-400 mr-5 md:mr-1 md:mr-5 uppercase text-sm md:text-xs lg:text-sm md:font-bold px-4 md:px-1 lg:px-4">Soluções para Istribuidoras e Indústrias</a>
+                            <a className="block sm:inline ransition-colors text-gray-400 hover:text-blue-400 mr-5 md:mr-1 md:mr-5 uppercase text-sm md:text-xs lg:text-sm md:font-bold px-4 md:px-1 lg:px-4">Soluções para Distribuidoras e Indústrias</a>
                         </Link>
                     
                     

@@ -38,8 +38,7 @@ export default function Comercio() {
                 <Compra></Compra>
                 <FeaturesComercio></FeaturesComercio>
                 <div className="p-3 bg-gradient-to-br from-blue-100 via-blue-50 to-green-50 text-center md:p-10">
-                <h2 className="text-2xl text-gray-800 font-bold">Conclusão</h2>
-                <h3 className="text-gray-700">Nosso sistema possue ferramentas avançadas que fazem total diferença na sua gestão sem adesões extras</h3>
+                <h3 className="text-gray-700 font-semibold text-xl">Nosso sistema possui ferramentas avançadas que fazem total diferença na sua gestão sem adesões extras</h3>
                 </div>
             </Layout>
         </>
