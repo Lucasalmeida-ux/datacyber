@@ -16,7 +16,7 @@ export default function Fetures() {
                     <h2 className="font-semibold text-gray-500 uppercase">
                         Suporte Personalizado
                 </h2>
-                <p className="md:px-4 text-sm text-gray-600 mt-2">O treinamento é feito online, com aulas explicativas e se houver dúvidas, poderão ser tiradas pelo telefone a qualquer hora.</p>
+                <p className="md:px-4 text-sm text-gray-600 mt-2">Temos uma equipe altamente capacitada para tirar as suas dúvidas a qualquer momento pelo whatts ou ligações.</p>
 
                 </div>
                 <div className="">
